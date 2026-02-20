@@ -1,36 +1,28 @@
-# Fraud Detection & Risk Analytics
+# Fraud Detection & Risk Scoring Model
 
-## Overview
-This project detects fraudulent transactions using machine learning on highly imbalanced data. By applying SMOTE for oversampling and optimizing features, the model improved fraud detection precision by 20%, providing actionable risk insights for mitigation.
+##  Overview
+An ML-based fraud detection system identifying high-risk transactions in highly imbalanced datasets.
 
-## Features
-- Load and preprocess transaction data
-- Handle missing values and encode categorical variables
-- Balance classes using SMOTE
-- Feature selection for optimal model performance
-- Train and evaluate multiple classifiers:
-  - Random Forest
-  - Logistic Regression
-- Generate interpretable risk insights for fraud prevention
+##  Business Problem
+Fraudulent transactions cause financial losses and operational risk.
 
+##  Tech Stack
+- Python (Scikit-learn, Pandas)
+- SMOTE for imbalance handling
+- Classification Algorithms
+- Precision-Recall & ROC Analysis
 
-Results
+##  Approach
+- Addressed class imbalance using SMOTE
+- Optimized feature selection
+- Evaluated models using precision and recall metrics
 
-Random Forest classifier achieved the best precision and recall on imbalanced data.
+##  Results
+- Improved fraud detection precision
+- Reduced false positives through threshold tuning
 
-SMOTE increased detection of rare fraudulent cases.
-
-Insights allow proactive risk mitigation strategies.
-
-## Usage
-1. Clone the repo and install dependencies:
-```bash
-pip install -r requirements.txt
-
-Place your transaction dataset in data/transactions.csv
-
-Run the notebook notebooks/fraud_detection.ipynb to preprocess data, train the model, and evaluate fraud detection performance.
-
+##  Impact
+Enhanced transaction risk monitoring and fraud prevention capability.
 
 
 
